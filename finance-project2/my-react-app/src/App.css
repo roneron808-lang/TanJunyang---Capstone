@@ -93,3 +93,20 @@ button:hover {
     flex-direction: column;
   }
 }
+
+.profit-loss {
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.profit-loss.positive {
+  color: #10b981;  /* Green for profit */
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.profit-loss.negative {
+  color: #ef4444;  /* Red for loss */
+  background: rgba(239, 68, 68, 0.1);
+}
