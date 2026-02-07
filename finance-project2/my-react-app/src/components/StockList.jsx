@@ -23,7 +23,7 @@ const StockList = () => {
               <div>Qty: {stock.quantity}</div>
               <div>Purchase: ${stock.purchasePrice.toFixed(2)}</div>
               <div>Current: ${stock.currentPrice?.toFixed(2) || 'N/A'}</div>
-              <div className="profit-loss">
+              <div className={`profit-loss ${stock.profitLoss >= 0 ? 'positive' : 'negative'}`}>
                 Profit/Loss: ${stock.profitLoss?.toFixed(2) || 'N/A'}
               </div>
             </div>

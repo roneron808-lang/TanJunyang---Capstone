@@ -42,7 +42,7 @@ const StockForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="stock-form">
-      <div className="form-row"> {/* NEW: Side-by-side container */}
+      <div className="form-row"> {/* Side-by-side container */}
         <div className="form-group">
           <label>Stock Symbol</label>
           <TextField
