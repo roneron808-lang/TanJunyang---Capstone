@@ -6,3 +6,5 @@ export default defineConfig({
   plugins: [react()],
   base: '/TanJunyang---Capstone/',
 })
+
+//base is the name of the repository in github online//
