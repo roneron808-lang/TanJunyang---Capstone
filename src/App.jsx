@@ -8,7 +8,7 @@ function App() {
     <StockProvider>
       <div className="app">
         <header className="app-header">
-          <img src="/public/profile_pic.jpg" width="800" height="250" alt="Profile" />
+          <img src="https://roneron808-lang.github.io/TanJunyang---Capstone/profile_pic.jpg" width="800" height="250" alt="Profile" />
           <h1>Finance Dashboard</h1>
         </header>
         <StockForm />
