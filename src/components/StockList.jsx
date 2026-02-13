@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { StockContext } from '../context/StockContext';
 
-const StockList = () => {
+const StockList = ({ title }) => {
   const { stocks } = useContext(StockContext);
 
   if (stocks.length === 0) {
@@ -14,7 +14,7 @@ const StockList = () => {
 
   return (
     <div className="stock-list">
-      <h2>Your Portfolio</h2>
+      <h2>{title}</h2>
       <div className="stocks-grid">
         {stocks.map((stock) => (
           <div key={stock.id} className="stock-card">
